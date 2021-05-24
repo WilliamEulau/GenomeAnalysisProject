@@ -1,0 +1,128 @@
+#maximal read length
+max_rd_len=100
+[LIB]
+#average insert size
+avg_ins=400
+#if sequence needs to be reversed 
+reverse_seq=0
+#in which part(s) the reads are used
+asm_flags=3
+#use only first 100 bps of each read
+rd_len_cutoff=100
+#in which order the reads are used while scaffolding
+rank=0
+# cutoff of pair number for a reliable connection (at least 3 for short insert size)
+pair_num_cutoff=3
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+map_len=32
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q1=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819794.trim_1P.fastq.gz
+q2=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819794.trim_2P.fastq.gz
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819794.trim_1U.fastq.gz
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819794.trim_2U.fastq.gz
+[LIB]
+#average insert size
+avg_ins=800
+#if sequence needs to be reversed 
+reverse_seq=1
+#in which part(s) the reads are used
+asm_flags=3
+#use only first 100 bps of each read
+rd_len_cutoff=100
+#in which order the reads are used while scaffolding
+rank=1
+# cutoff of pair number for a reliable connection (at least 3 for short insert size)
+pair_num_cutoff=3
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+map_len=35
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q1=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819795.trim_1P.fastq.gz
+q2=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819795.trim_2P.fastq.gz
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819795.trim_1U.fastq.gz
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819795.trim_2U.fastq.gz
+[LIB]
+#average insert size
+avg_ins=10000
+#if sequence needs to be reversed 
+reverse_seq=1
+#in which part(s) the reads are used
+asm_flags=3
+#use only first 100 bps of each read
+rd_len_cutoff=100
+#in which order the reads are used while scaffolding
+rank=1
+# cutoff of pair number for a reliable connection (at least 3 for short insert size)
+pair_num_cutoff=3
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+map_len=35
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q1=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819796.trim_1P.fastq.gz
+q2=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819796.trim_2P.fastq.gz
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819796.trim_1U.fastq.gz
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819796.trim_2U.fastq.gz
+[LIB]
+#average insert size
+avg_ins=175
+#if sequence needs to be reversed 
+reverse_seq=0
+#in which part(s) the reads are used
+asm_flags=3
+#use only first 100 bps of each read
+rd_len_cutoff=100
+#in which order the reads are used while scaffolding
+rank=0
+# cutoff of pair number for a reliable connection (at least 3 for short insert size)
+pair_num_cutoff=3
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+map_len=32
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q1=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819797.trim_1P.fastq.gz
+q2=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819797.trim_2P.fastq.gz
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819797.trim_1U.fastq.gz
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819797.trim_2U.fastq.gz
+[LIB]
+#average insert size
+avg_ins=4000
+#if sequence needs to be reversed 
+reverse_seq=1
+#in which part(s) the reads are used
+asm_flags=3
+#use only first 100 bps of each read
+rd_len_cutoff=100
+#in which order the reads are used while scaffolding
+rank=1
+# cutoff of pair number for a reliable connection (at least 3 for short insert size)
+pair_num_cutoff=3
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+map_len=35
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q1=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819798.trim_1P.fastq.gz
+q2=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819798.trim_2P.fastq.gz
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819798.trim_1U.fastq.gz
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819798.trim_2U.fastq.gz
+[LIB]
+#average insert size
+avg_ins=6000
+#if sequence needs to be reversed 
+reverse_seq=1
+#in which part(s) the reads are used
+asm_flags=3
+#use only first 100 bps of each read
+rd_len_cutoff=100
+#in which order the reads are used while scaffolding
+rank=1
+# cutoff of pair number for a reliable connection (at least 3 for short insert size)
+pair_num_cutoff=3
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+map_len=35
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q1=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819799.trim_1P.fastq.gz
+q2=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819799.trim_2P.fastq.gz
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819799.trim_1U.fastq.gz
+q=/home/wieu5176/genome_analysis/genome-analysis-project/01_quality_control/wgs_data/sel4_SRR5819799.trim_2U.fastq.gz
